@@ -1,5 +1,3 @@
-
-
 if(msg.payload.output) {
   if(msg.payload.output.text) {
       msg.payload = {"text": msg.payload.output.text[msg.payload.output.text.length-1]}
